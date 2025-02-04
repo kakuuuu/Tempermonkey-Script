@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name         Block New Windows
+// @name         DisableNewTabJump 禁止网站自动打开新标签页
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  阻止 某些example.com 自动打开新标签页和弹出窗口, 在@match中填写需要阻止的域名
+// @version      1.1
+// @description  阻止 某些example.com 自动打开新标签页和弹出窗口, 请在@match中填写需要阻止的域名或匹配正则表达式
 // @author       kula
 // @match        *://*.example.com/*
 // @grant        none
 // @run-at       document-start
+// @license MIT
 // ==/UserScript==
 
 (function () {
